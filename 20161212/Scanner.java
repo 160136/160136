@@ -15,10 +15,11 @@ public class Scanner{
 			System.out.println("input data>");
 			data=new java.util.Scanner(System.in).nextLine();
 			System.out.println(data);
-		}
-		if (data.equals("")){
+		
+		if (data.equals("exit")){
 			break;
 		}
+	}
 	}
 	
 }
