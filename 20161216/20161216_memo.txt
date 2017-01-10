@@ -1,0 +1,120 @@
+20161216_memo
+=============
+
+meta:  
+20161216
+
+---
+
+# GitHubについて、ちょっと確認
+
+"push"、ちゃんとできますか？
+- GitHub Desktopでは、できる.
+- Git Bashでも、できる？
+
+
+
+## 準備
+
+1. Git Bashを起動する.
+
+2. リポジトリにアクセスする.
+
+	```bash
+	cd
+	cd documents
+	cd github
+	cd 160999      <- リポジトリ?
+	cd 20161215
+	cd 160999      <- リポジトリ？
+	```
+
+そこは、リポジトリですか？？？
+(master)って表示されていますか？
+
+
+3. 新しいファイルをつくる.
+
+	```bash
+	touch  test.txt
+	```
+
+4. ファイルができたか確認する.
+
+	1. フォルダを開く.
+	2. ls コマンドをうつ.
+
+	```bash
+	ls
+	```
+
+5. add & commit する.
+
+	```bash
+	git status
+	git add .
+	git commit -m "test added."
+
+6. push する.
+
+	```bash
+	git push origin master
+	```
+
+もしできないときは、、、
+
+	ERROR:   とか、
+	FATAL:   とか、表示される
+
+
+
+# PHP: webのプログラミング
+
+## 先週つくったもの
+
+http://localhost/index.html
+
+
+1. XAMPP Control Panel を起動する.
+
+2. Apacheを、Start する.
+
+3. Google Chromeで、index.htmlにアクセスする.
+
+http://localhost/index.html
+
+
+
+
+## パスワードを確認するプログラム
+
+- dir: C:\XAMPP\htdocs\
+
+
+0. フォルダを開く.
+
+    - dir: "C:\XAMPP\htdocs\"
+
+
+
+1. 新しいファイルをつくる.
+
+	- HTML: testPassword.html
+	- PHP : testPassword.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end.

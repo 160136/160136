@@ -1,0 +1,79 @@
+web_20161209
+============
+
+meta:  
+20161209
+
+---
+
+# 今日やること
+- [ ]XAMPP
+
+
+
+
+
+# XAMPP
+
+- Windows + Apache + MySQL(MariaDB) + PHP + Perl
+	- WAMPP
+- XAMPP Control Panelを起動する
+	1. Apache を start する
+	2. Chromeでアクセスしてみる
+		- URL:  localhost
+
+
+# index.htmlを新しくつくる
+- file: C > xampp > htdocs > index.html
+
+- Google Chrome で、もう一度アクセスする。
+	- http://localhost/index.html
+
+
+
+# index.phpをつくる
+
+もし、最初から index.php があったら、消しましょう。
+そして、index.htmlをコピーして、名前を変える。
+
+できたら、Google Chromeで、アクセスする。
+
+-> アドレス   localhost/index.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# webサイトのレイアウト
+
+html, cssを使ってwebページを作る。
+
+
+end.

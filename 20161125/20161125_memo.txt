@@ -1,0 +1,136 @@
+20161125_memo
+=============
+
+meta:  
+20161125
+
+---
+
+# 今日やること
+- GitHubの準備（みんな）
+- GitHubを使う練習( HTML )
+
+
+
+# GitHubの準備（みんな）
+1. GitHubの確認
+	- ユーザ登録、できていますか？
+	- ログインできますか？
+		- パスワード、おぼえていますか？
+	- やること
+		1. Chromeを起動する
+		2. [GitHub](http://github.com)にアクセスする
+		3. ログインする
+			- 自動的にログインできるかもしれない。
+		4. アイコン画像( 写真・画像 )を入れましたか？
+			- 自分の写真とか、好きなもの、好きな場所とかなんでもOK
+
+2. repository( リポジトリ )をつくる
+	- repository名: hello
+		- "README.md"をつける
+			- オプションを選択する
+
+3. Collaboratorをつくる
+	1. Settingsタブ
+	2. Collaborators
+	3. ユーザ名を書く( yoshinotaichi )
+	4. "Add Collaborator"をクリックする
+
+4. YSE2016 に参加する
+	1. 吉野が、invitation を送る
+	2. [YSE2016]( https://github.com/orgs/yse2016/ )にアクセスする
+	3. "YSE2016"に参加する
+
+5. repositoryをつくる
+	- repo名: 160xxx( 学籍番号 )
+	- Collaboratorをつくる
+		- yoshinotaichiを、Collaboratorにする。
+
+
+
+
+
+# GitHubを使う練習
+
+いいこと
+- JavaやHTMLを書くとき、GitHubからダウンロードして、書く。
+- プログラムやWebサイトを作ったら、GitHubにも保存する。
+- 吉野が、みなさんのプログラムを見たり、もらったりできる。
+
+
+## ホームページ( ３つ )
+
+ぜんぶ見えてますか？
+
+- 自分のホームページ
+- repo ( リポジトリ )のホームページ
+- "YSE2016"のホームページ
+
+
+
+## repo
+
+160xxx( 学籍番号 )というリポジトリがありますか？
+
+### 吉野( yoshinotaichi )を、Collaborator( コラボレイター )にする
+
+1. Settingsタブ
+2. Collaborators
+3. ユーザ名を書く( yoshinotaichi )
+4. "Add Collaborator"をクリックする
+
+
+
+## GitHub Desktop ( アプリケーション )
+
+インストールできてますか？
+
+1. 起動してみましょう( GitHub )
+
+2. repoを確認
+	- Tutorial ( ←みんな持っている )
+
+3. repo "160xxx" をダウンロード
+
+	- clone ( クローン )
+
+
+## 新しいページをつくりましょう
+
+Sublime Textをつかって、HTMLを書きます。
+
+- file: index.html
+
+- repoフォルダに保存する
+
+	- 場所  c:\ユーザー\160999\マイドキュメント\GitHub\160999\20161125
+
+
+- 何を書きますか
+
+	- 自分の名前と学籍番号
+		- <h1>をつかいます
+
+
+
+## つくったら、commit ( コミット )する
+
+	- 報告する。
+	- Summary:  index.htmlをつくりました
+
+	- "Commit to master"をクリックする
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end.
