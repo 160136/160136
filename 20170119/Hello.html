@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<h1>canvas</h1>
+<hr>
+<canvas id="canvas" width="400" height="500"></canvas>
+<canvas id="canvas1" width="400" height="500"></canvas>
+
+<script type="text/javascript">
+	var canvas = document.getElementById('canvas');
+	var ctx = canvas.getContext('2d');
+	
+	ctx.fillStyle = "rgb(200, 0, 0)";
+	ctx.fillRect(100, 100, 100, 100);
+
+	for (var i = 1; i<10; i++) {
+		if (i%3==0) {
+			ctx.fillRect(100+i*5, 100+i*5, 200, 200);
+		}
+	ctx.strokeRect(100+i*5, 100+i*5, 200, 200); //線だけ
+	}
+
+	ctx.clearRect(100, 100, 20, 20);//空白格
+
+	ctx.fillStyle = "rgb(200, 0, 0)";
+	ctx.beginPath();
+	ctx.moveTo(200,50);
+	ctx.lineTo(175,75);
+	ctx.lineTo(175,25);
+	ctx.fill();
+
+	ctx.moveTo(130,0);
+	ctx.lineTo(105,25);
+	ctx.lineTo(155,25);
+	ctx.fill();
+
+	ctx.fillStyle="rgb(0,0,200)";
+	ctx.arc(300,120,100,0,Math.PI,false);
+ 	ctx.fill();
+</script>
+
+
+</body>
+</html>
