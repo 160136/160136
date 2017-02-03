@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>keyboard</title>
+</head>
+<body>
+	<h1>keyboard</h1>
+	<hr>
+	<canvas id="myCanvas" width="900" height="600"></canvas>
+
+	<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+	<script>
+		window.addEventListener('load',init);
+
+		function init() {
+			var stage=new createjs.Stage('myCanvas');
+
+			var shape=new createjs.Shape();
+			shape.graphics.beginFill("#E60D0D");
+			shape.graphics.drawRect(0,0,100,100);
+
+			var shape2=new createjs.Shape();
+			shape2.graphics.beginFill("#12F408");
+			shape2.graphics.drawRect(100,0,100,100);
+
+
+			stage.addChild(shape);
+			stage.addChild(shape2);
+
+			window.addEventListener('keydown',handlekeydown);
+			stage.update();
+			
+			var muki=1;
+			function handlekeydown(event){
+				//alert(event.keyCode);
+				var keyCode=event.keyCode;
+				if (keyCode==188) muki= +10;
+				if (keyCode==190) muki= -10;
+				if (keyCode==66) {
+					shape.x += 5*muki;
+					shape.y += 5*muki;
+					stage.update();
+				}
+			}
+
+		}
+	</script>
+</body>
+</html>
